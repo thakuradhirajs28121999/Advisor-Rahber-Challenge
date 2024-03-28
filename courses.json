@@ -1,0 +1,16 @@
+{
+  "Python Basics": {"prerequisites": [], "description": "Learn the fundamentals of Python programming."},
+  "Introduction to Programming": {"prerequisites": [], "description": "An introductory course for programming concepts."},
+  "Data Structures": {"prerequisites": ["Python Basics"], "description": "Explore data structures in Python."},
+  "Algorithms": {"prerequisites": ["Data Structures"], "description": "Learn about algorithms and their applications."},
+  "Machine Learning": {"prerequisites": ["Python Basics", "Data Structures", "Statistics"], "description": "Dive into the basics of machine learning."},
+  "Deep Learning": {"prerequisites": ["Machine Learning"], "description": "Advanced course on deep learning techniques."},
+  "Statistics": {"prerequisites": ["Introduction to Programming"], "description": "Foundational course in statistics."},
+  "Database Design": {"prerequisites": ["Introduction to Programming"], "description": "Learn about database design principles."},
+  "Web Development": {"prerequisites": ["HTML and CSS", "JavaScript"], "description": "Comprehensive course on web development."},
+  "HTML and CSS": {"prerequisites": [], "description": "Introduction to web design with HTML and CSS."},
+  "JavaScript": {"prerequisites": ["HTML and CSS"], "description": "Learn JavaScript for dynamic web pages."},
+  "Software Engineering Principles": {"prerequisites": ["Introduction to Programming"], "description": "Principles and practices of software engineering."},
+  "Cloud Computing Basics": {"prerequisites": [], "description": "Introductory course to cloud computing."},
+  "Data Science Introduction": {"prerequisites": ["Python Basics", "Statistics"], "description": "Introduction to data science concepts."}
+}

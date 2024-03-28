@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Catalog</title>
+</head>
+<body>
+    <h1>Course Catalog</h1>
+    <ul>
+        {% for course, details in courses.items() %}
+            <li>{{ course }}: {{ details.get('description', 'No description') }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/dashboard">View Dashboard</a>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <div id="dashboard"></div>
+    <script>
+        var graphs = {{ graphJSON | safe }};
+        Plotly.newPlot('dashboard', graphs.data, graphs.layout);
+    </script>
+    <a href="/">Back to Course Catalog</a>
+</body>
+</html>
